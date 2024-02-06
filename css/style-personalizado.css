@@ -1,0 +1,136 @@
+/** Botón PAGAR - hace aparecer el modal **/
+.kr-popin-button{  
+	color: #ffffff !important;
+	background-color: #00A09D !important;
+	border-radius: 4px !important;
+	height:55px !important;
+	margin-bottom: 0px !important;
+}
+
+.kr-popin-button span:hover{
+	transition-duration: 0.2s;
+	font-size: large;
+	text-shadow: -0.5px -0.5px 0.5px #000, 0.5px 0.5px 0.5px #000, -0.5px 0.5px 0.5px #000, 0.5px -0.5px 0.5px #000;
+  }
+
+.kr-popin-button:hover {
+	background-color: #3DD2CE !important;
+	border-radius: 4px !important;
+	color: #ffffff !important;
+}
+
+/** LOGO HEADER **/
+#form > div.kr-popin-wrapper > div > div.kr-popin-modal-header > div.kr-popin-modal-header-image > img{display:none}
+#form > div.kr-popin-wrapper > div > div.kr-popin-modal-header > div.kr-popin-modal-header-image > div.kr-header-border-shadow{display:none}
+#form > div.kr-popin-wrapper > div > div.kr-popin-modal-header > div.kr-popin-modal-header-image > div.kr-header-border{display:none}
+#form > div.kr-popin-wrapper > div > div.kr-popin-modal-header > div.kr-popin-modal-header-image > div.kr-header-logo-shadow{display:none}
+#form > div.kr-popin-wrapper > div > div.kr-popin-modal-header > div.kr-popin-modal-header-image > div.kr-header-logo
+{
+	content:url("https://raw.githubusercontent.com/izipay-pe/Popin-Imagenes/main/logo-cabecera-200x200.png");
+    margin-top: -18px;
+    transform: scale(1.5);
+}
+
+/** Logo footer **/
+.kr-embedded[kr-popin].kr-help-button-inner-field .kr-popin-modal-footer .kr-whitelabel-logo img {  border-radius: 4px;
+	content: url("https://raw.githubusercontent.com/izipay-pe/Popin-Imagenes/main/logo%20color%20principal.png"); max-height: 100%;margin-right: 30px}
+
+/** Posición del formulario popin en la pantalla
+.kr-popin-wrapper{
+	padding-top:60px !important; 
+}**/
+
+.kr-embedded{
+/* 	height: 460px; */
+	border-radius:35px !important;
+	justify-content: space-between !important;
+}
+
+/** Manejo de la cabecera **/
+.kr-popin-modal-header{
+	border-bottom: 0px !important;
+	border-radius:10px !important;
+}
+
+.kr-popin-modal-header-background{
+	background-color: #ffffff !important;
+	border-radius: 10px !important;
+}
+
+.kr-popin-shop-name{
+	border-bottom:solid 1px #bbb !important;
+  	width:85% !important;
+  	height:30px !important;
+	margin-top:60px !important;
+}
+
+/** Manejo de las casillas del Body **/
+.kr-field-wrapper{	/*controla la posición de los textos*/
+	margin-top: 3px !important;
+}
+
+.kr-pan, .kr-expiry, .kr-security-code, .kr-installment-number, .kr-first-installment-delay{
+	height: 45px !important;
+	display:flex !important;
+	align-items: center !important;
+	margin-bottom: 5px !important;
+	border-radius: 4px !important;
+}
+
+/** Campos adicionales para el Body **/
+/*.kr-card-holder-mail, 			/*E-mail*/ 
+/*.kr-card-holder-name,			/*Nombre del Titular*/  
+/*.kr-identity-document-type, 	/*Tipo Documento*/ 
+/*.kr-identity-document-number{	/*Numero Documento*/
+/*	height: 45px !important;
+	display:flex !important;
+	align-items: center !important;
+	margin-bottom: 5px !important;
+	border-radius: 4px !important;
+}*/
+
+.kr-pan{
+	margin-top: -5px !important;	
+}
+
+.kr-field-wrapper.kr-select-wrapper.kr-real-select{
+	height:31.7px !important;
+}
+.kr-field-element.kr-expiry.kr-size-half{
+	width:52% !important;
+	margin-right: 0px !important;
+}
+.kr-field-element.kr-security-code.kr-size-half{
+	width: 46% !important;
+}
+
+/** Botón PAGAR - dentro del modal PopIn **/
+.kr-embedded .kr-payment-button {
+  	color: #ffffff !important;
+    background-color: #00A09D !important;
+    border-radius: 4px !important;
+    height:55px !important;
+	margin-bottom: 0px !important;
+}
+
+.kr-embedded .kr-payment-button span:hover{
+	transition-duration: 0.2s;
+	font-size: large;
+	text-shadow: -0.5px -0.5px 0.5px #000, 0.5px 0.5px 0.5px #000, -0.5px 0.5px 0.5px #000, 0.5px -0.5px 0.5px #000;
+}
+
+.kr-embedded .kr-payment-button:hover {
+	background-color: #3DD2CE !important;
+    border-radius: 4px !important;
+    color: #ffffff !important;
+}
+
+/** footer **/
+.kr-embedded[kr-popin], div.kr-popin-modal-footer{
+	border-radius: 10px !important;
+}
+
+.kr-popin-modal-footer div img{
+	margin-right: 28px !important;
+}
+
